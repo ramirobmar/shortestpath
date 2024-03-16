@@ -17,12 +17,19 @@ st y en: Nodos inicial y final del camino mínimo que se desea encontrar.
 x: Variables de decisión binarias que indican si un borde está incluido en el camino mínimo.
 ### Funcion Objetivo:
 fobj: Expresión que calcula el costo total del camino mínimo, sumando los pesos de los bordes incluidos en el camino.
-
 minimize fobj: La función objetivo del modelo es minimizar el costo total del camino mínimo.
+### Restricciones:
+
 subject to:
 forall(i in nodes) st_constraints: Restricciones que garantizan que para cada nodo, la suma de las variables de los bordes que salen menos la suma de las variables de los bordes que entran sea igual a 1 si es el nodo inicial, -1 si es el nodo final o 0 en otros casos.
 forall(_edge in edges) st_nonegativity: Restricciones que garantizan que todas las variables de decisión sean no negativas.
 shortestPath: Conjunto que contiene los bordes que forman parte del camino mínimo.
+### Presentación de Resultados:
 execute:
 Imprime la solución encontrada, mostrando el costo total del camino mínimo y el camino mínimo en sí.
+
+## RESULTADOS:
+
+// solution (optimal) with objective 9
+Solución -> Coste total: 9- Camino Minimo:  {<1 2 1> <2 3 2> <3 5 6>}
 
