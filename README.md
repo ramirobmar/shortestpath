@@ -7,8 +7,8 @@
 ## MODULO: practica.mod: 
 El presente proyecto, pretende abordar cuestiones relacionadas con la resolución de problemas de Programación Lineal, en el ambito de resolución de Grafos y el contexto de Optimización de Algoritmos basados en Sistemas de Inteligencia Artificial. El desarrollo del proyecto, se ha realizado a partir de la plantilla de ejemplo proporcionada en el entorno CPLEX, netflow y la información proporcionada por IBM acerca del algoritmo Shortestpath en su pagina web, que define la estructura básica para la resolución de problemas de optimización de flujos de red mediante dicho entorno de programación.  
 ## COMENTARIOS: 
-Master en IA en el sector de la Energía e Infraestructuras: Proporciona comentarios adicionales sobre el autor, como su experiencia o formación.
-Optimized Linear Programming (OLP) - Actividad 2 - Apartado A: Un título que describe el propósito o la naturaleza del modelo de programación lineal.
+Actividad en el contexto del Master en IA en el sector de la Energía e Infraestructuras.
+Optimized Linear Programming (OLP) 
 ### Definicion de Variables:
 NuNods: Variable que probablemente representa el número de nodos en el grafo. Se espera que sea definida en otro lugar del código.
 edges: Conjunto de tuplas que representan los bordes del grafo, con información sobre origen, destino y peso.
